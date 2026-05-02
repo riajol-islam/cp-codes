@@ -23,7 +23,5 @@ int main() {
      }
      printf("-1\n");
      
-
-
-    return 0;
+ return 0;
 }
