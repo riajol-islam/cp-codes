@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 using namespace std;
 
 int main() {
@@ -7,34 +7,31 @@ int main() {
     freopen("outputf.txt", "w", stdout);
 #endif
 
-     int n;
-     cin>>n;
-     int cnt=0;
-     int arr[101];
-    for(int i=1;i<=n;i++){
-    	cin>>arr[i];
+    int n;
+    if (!(cin >> n)) return 0; // ইনপুট না থাকলে বন্ধ হবে
+
+    for (int j = 1; j <= n; j++) {
+        int val;
+        cin >> val;
+        
+        int temp = val;
+        int last_digit = temp % 10;
+        bool is_repdigit = true;
+
+        while (temp > 0) {
+            if (temp % 10 != last_digit) {
+                is_repdigit = false;
+                break;
+            }
+            temp /= 10;
+        }
+
+        if (is_repdigit) {
+            cout << val << " is a repdigit" << endl;
+        } else {
+            cout << val << " is not a repdigit" << endl;
+        }
     }
-    for(int j=1;j<=n;j++){
-    	int month=j;
-    	int last_digit=month%10;
-    	bool is_repdigit=true;
-    	while (month>0){
-    		if(month%10!=last_digit){
-    			is_repdigit = false;
-    			break;
-    		}
-    		month/=10;
-    	}
-    	if(is_repdigit){
-    		long long day=last_digit;
-    		while(day<=arr[j]){
-    			 cnt++;
-    			  day = (day * 10) + last_digit;
-    		}
-    	}
-    }
-    cout <<cnt << "\n";
-    
-     
+
     return 0;
 }
