@@ -1,1 +1,9 @@
-3 1 4 
+Roll 1 details: 
+semester1: 101 40 50 
+semester2: 60 30 60 
+semester3: 70 90 70 
+---------------------------------Roll 2 details: 
+semester1: 80 102 66 
+semester2: 88 99 66 
+semester3: 77 88 99 
+---------------------------------
