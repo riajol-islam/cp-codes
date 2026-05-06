@@ -15,7 +15,7 @@ int main() {
      		cin>>arr[i][j];
      	}
      }
-     for(int j=1;j<=3;j++){
+     for(int j=1;j<=w;j++){
      	for(int i=1;i<=h;i++){
      		cout<<arr[i][j]<<" ";
      	}
