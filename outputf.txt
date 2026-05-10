@@ -1,5 +1,1 @@
-Testing: 11 -> Prime
-Testing: 55 -> Not Prime
-Testing: 34 -> Not Prime
-Testing: 67 -> Prime
-Testing: 32 -> Not Prime
+6
