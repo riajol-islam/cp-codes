@@ -24,6 +24,8 @@ while(low<=high){
     long long mid=low+(high-low)/2;
     if(check(arr,k,mid)){
         res=(int)mid;
+
+    
         high=mid-1;
     }
     else{
