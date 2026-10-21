@@ -3,7 +3,7 @@ using namespace std;
 bool check(vector<int>&arr,int k,int dist){
     int cnt=1;
     int prev=arr[0];
-    for()
+    for(int i=0;i<arr.size();i++){
         if(arr[i]-prev>=dist){
             prev=arr[i];
             cnt++;
