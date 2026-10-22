@@ -15,6 +15,6 @@ int main(){
     if(substring(text,pat)){
         cout<<"found";
     }else{
-        cout<<"error!";
+        cout<<"error!";     
     }
 }
