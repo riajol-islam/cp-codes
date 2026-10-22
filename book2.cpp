@@ -16,7 +16,7 @@ int main(){
     for(int right=0;right<n;right++){
         currenttime+=arr[right];
         while(currenttime>t){
-            currenttime-=arr[right];
+            currenttime-=arr[left];
             left++;
         }
         max_books=max(max_books,right-left+1);
