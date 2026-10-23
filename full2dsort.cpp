@@ -1,18 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 bool sorted(vector<vector<int>>&arr){
-    int n=arr.size()
-    int m=arr[1].size();
+    int n=arr.size();
+    int m=arr[0].size();
     for(int i=0;i<n;i++){
-        for(int j=0;i<m;j++){
-            if(j+1<m){
+        for(int j=0;j<m;j++){
+            if(j!=m-1){
                 if(arr[i][j]>arr[i][j+1]){
-        return false
+        return false;
                 }
 
             }
-            else if(i+1<n){
-                if(arr[i][j]>arr[i+1][0]);
+            else if(i!=n-1){
+                if(arr[i][j]>arr[i+1][0])
                 return false;
 
             }
@@ -34,7 +34,7 @@ int main() {
         }
     }
     
-    if (isGlobalSorted(arr)) {
+    if (sorted(arr)) {
         cout << "Globally Sorted\n";
     } else {
         cout << "Not Globally Sorted\n";
