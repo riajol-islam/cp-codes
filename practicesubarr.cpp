@@ -30,7 +30,7 @@ int main(){
         for(int j = 0; j < ans[i].size(); j++){
             cout << ans[i][j];
             if(j + 1 < ans[i].size()){
-                cout << " ";
+                cout << " ,";
             }
         }
         cout << "]"; // ✅ ঠিক জায়গায় রো বন্ধ করা হলো
