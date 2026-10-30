@@ -1,0 +1,1 @@
+{"name":"Local: icpc_d","url":"c:\\Users\\riajo\\Desktop\\cp\\icpc_d.cpp","tests":[{"id":1793356820716,"input":"3\n8\ncentered\n5\nabbba\n5\naabbz","output":"NO\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\riajo\\Desktop\\cp\\icpc_d.cpp","group":"local","local":true}
