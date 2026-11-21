@@ -1,0 +1,1 @@
+{"name":"Local: probleCF","url":"c:\\Users\\riajo\\Desktop\\cp\\probleCF.cpp","tests":[{"id":1795273155306,"input":"6\n1\n2\n3\n4\n10\n10000\n","output":"1\n2\n3\n4\n7\n244\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\riajo\\Desktop\\cp\\probleCF.cpp","group":"local","local":true}
