@@ -1,0 +1,1 @@
+{"name":"Local: div4c","url":"c:\\Users\\riajo\\Desktop\\cp\\div4c.cpp","tests":[{"id":1795791776216,"input":"7\n4\n0000\n4\n0101\n6\n011010\n2\n01\n3\n000\n4\n1000\n6\n010001\n","output":"YES\nNO\nYES\nNO\nNO\nYES\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\riajo\\Desktop\\cp\\div4c.cpp","group":"local","local":true}
